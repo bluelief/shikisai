@@ -1,0 +1,26 @@
+[package]
+name = "shikisai"
+version = "0.1.0"
+authors = ["Bluelief"]
+description = "Decorate text easily"
+repository = "https://github.com/bluelief/shikisai.git"
+readme = "README.md"
+license = "Apache-2.0/MIT"
+include = [
+	"src/**/*",
+	"Cargo.toml",
+	"README.md"
+]
+keywords = [
+	"terminal",
+    "color"
+]
+categories = ["command-line-interface"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
